@@ -1,0 +1,19 @@
+server already runnig in rails 
+
+problem statment :----
+A server is already running. Check /home/dev14/Desktop/rails/todo_app/tmp/pids/server.pid.
+
+
+
+
+
+solution statamnet:----
+
+cd /home/dev14/Desktop/rails/todo_app/tmp/pids/
+and watever your project directry place
+
+then cat server.pid
+
+it will show number like 23452.....
+
+and then kill -9 23452
